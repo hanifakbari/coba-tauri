@@ -1,0 +1,51 @@
+
+.appcanvas{
+  position: absolute;
+  top: -10px;
+  width: 900px;
+  height: 800px;
+}
+
+.myapp{
+  display: flex;
+  width: 400px;
+  height: 755px;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  /* justify-content: space-between; */
+}
+
+.title-wrap {
+  margin-left: 16px;
+}
+
+.app-footer {
+  height: 6rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.456);
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin: 0 !important;
+}
+
+.green-title {
+  font-size: 20px;
+  font-weight: semibold;
+  color: rgb(15, 214, 15);
+}
+
+.white-title {
+  font-size: 20px;
+  font-weight: semibold;
+  color: white;
+}
